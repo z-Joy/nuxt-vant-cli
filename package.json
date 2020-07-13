@@ -2,7 +2,10 @@
   "name": "zjh-nuxt-vant-cli",
   "version": "1.0.0",
   "description": "nuxt+vant初始化模板",
-  "main": "index.js",
+  "author": "z-joy",
+  "license": "MIT",
+  "private": false,
+  "main": "bin/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,8 +13,6 @@
     "nuxt-vant-cli": "./bin/index.js"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
     "chalk": "^4.1.0",
     "commander": "^5.1.0",
